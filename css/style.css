@@ -1,0 +1,137 @@
+/* All Common CSS Start  */
+*{
+    margin: 0;
+    padding: 0;
+}
+ul,ol{
+    list-style-type: none;
+}
+a{
+  text-decoration: none;
+  display: inline-block;
+}
+/* All Common CSS End  */
+
+
+#headerPart{
+    background: #07110D;
+    padding: 20px 0;
+}
+
+.nav-link{
+    color: #9DB3A8;
+    font-size: 15px;
+    font-weight: 500;
+    font-family: "Inter", sans-serif;
+    margin: 0 20px;
+}
+.nav-link:hover{
+    color: #9DB3A8;
+}
+.navBtn{
+    background: #1FB57F;
+    padding: 12px 22px;
+    border-radius: 999px;
+    color: #07110D;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: "Inter", sans-serif;   
+}
+.bannerImg{
+    position: relative;
+}
+.rankCard{
+    background: #07110D;
+    padding-top: 18px;
+    padding-left: 22px;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 10px;
+    left: 28px;
+}
+.rankCard h3{
+    font-size: 28px;
+    font-weight: 400;
+   font-family: "Bebas Neue", sans-serif;
+   letter-spacing: 2%;
+   color: #F4EFE6;
+}
+
+.rankCard h6{
+    font-size: 13px;
+    font-weight: 400;
+    font-family: "Inter", sans-serif;
+    padding: 0 22px 18px 0;
+    color: #9DB3A8;
+}
+/* Banner Part Start  */
+#bannerPart{
+    background: #07110D;
+    padding-top:60px;
+    padding-bottom:100px;
+}
+
+
+.bannerLeft h3{
+     font-size: 13px;
+     font-weight: 600;
+    font-family: "Inter", sans-serif; 
+    letter-spacing: 18%;
+    color: #1FB57F;
+    position: relative;
+}
+.bannerLeft h3::after{
+    width: 40px;
+    height: 2px;
+    background: #F42A41;
+    content: "";
+    position: absolute;
+    bottom: 8px;
+    left:-50px;
+}
+.bannerLeft h1{
+    font-size: 148px;
+    font-weight: 400;
+   font-family: "Bebas Neue", sans-serif;   
+   line-height: 88%;
+   color: #F4EFE6;
+   padding: 28px 0;
+}
+.bannerLeft p{
+    width: 560px;
+    font-size: 19px;
+    font-weight: 400;
+    font-family: "Inter", sans-serif;   
+    color: #9DB3A8;
+    line-height: 155%;
+    padding-bottom: 28px;
+}
+.bannerBtn .career{
+    padding: 16px 28px;
+    background: #F42A41;
+    border-radius: 999px;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: "Inter", sans-serif; 
+    color: #F4EFE6;
+    transition: all linear .4s;
+}
+.bannerBtn .career:hover{
+    background: transparent;
+    border: 2px solid #F42A41;
+}
+.bannerBtn .record{
+    padding: 16px 28px;
+    background: transparent;
+    border: 2px solid #21402F;
+    border-radius: 999px;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: "Inter", sans-serif; 
+    color: #F4EFE6;
+}
+.bannerBtn{
+    display: flex;
+    gap: 30px;
+}
+/* Banner Part Start  */
