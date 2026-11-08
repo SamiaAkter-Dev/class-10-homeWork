@@ -2,6 +2,7 @@
 *{
     margin: 0;
     padding: 0;
+    
 }
 ul,ol{
     list-style-type: none;
@@ -135,3 +136,477 @@ a{
     gap: 30px;
 }
 /* Banner Part Start  */
+
+
+
+#scoresPart{
+    background: #07110D;
+    padding: 100px 0;
+    
+
+}
+
+.scorCard{
+    background: #21402F;
+    padding: 20px 0;
+     border-radius: 10px;   
+}
+.scorCard h2{
+    font-size:72px;
+    font-weight: 400;
+    font-family: "Bebas Neue", sans-serif;
+    color:#F4EFE6;
+    padding-left: 22px;
+}
+.scorCard h4{
+    font-size:15px;
+    font-weight: 500;
+    font-family: "Inter", sans-serif;
+    color:#9DB3A8;
+    padding-left: 22px;  
+}
+
+
+#aboutPart{
+    background: #0E1F18;
+    padding-top:110px;
+}
+.aboutLeft h6{
+    font-size:13px;
+    font-weight: 400;
+    font-family: "Inter", sans-serif;
+    color:#F42A41;
+    letter-spacing: 20%;
+}
+.aboutLeft h3{
+    font-size:72px;
+    font-weight: 400;
+    font-family: "Bebas Neue", sans-serif;
+    line-height: 95%;
+    color:#F4EFE6;
+
+}
+.info{
+    padding-bottom: 110px;
+}
+.aboutRight h3{
+  font-size:44px;
+  font-weight:400;
+  font-family: "Bebas Neue", sans-serif;
+  color:#1FB57F;
+}
+.aboutRight p{
+    font-size:18px;
+    font-weight: 400;
+    font-family: "Inter", sans-serif;
+    color:#9DB3A8;
+    line-height: 165%;
+    padding: 28px 0;
+}
+
+#careerPart{
+    background: #07110D;
+    padding-top:110px;
+}
+.careerContent h6{
+    font-size: 13px;
+    font-weight: 600;
+    font-family: "Inter", sans-serif;
+    letter-spacing: 20%;
+    color: #F42A41;
+}
+
+.careerContent h3{
+    font-size: 72px;
+    font-weight: 400;
+    font-family: "Bebas Neue", sans-serif;
+    color: #F4EFE6;
+    padding-bottom: 56px;
+}
+
+.careerCard{
+    background: #07110D;
+    padding-top: 14px;
+
+}
+
+.line{
+    width: 184px;
+    height: 2px;
+    background: #21402F;
+    position: relative;
+}
+.line::after{
+   width: 10px;
+   height: 10px;
+   background: #F42A41;
+   border-radius: 50%;
+   position: absolute;
+   top: -8px;
+   left: -10px;
+   content: "";
+}
+.careerCard{
+    padding-bottom: 176px;
+  
+}
+.careerCard h4{
+    font-size: 48px;
+    font-weight: 400;
+  font-family: "Bebas Neue", sans-serif;
+  color: #1FB57F;
+}
+.careerCard h6{
+   font-size: 18px;
+   font-weight: 600;
+  font-family: "Inter", sans-serif;
+  color: #F4EFE6;
+}
+.careerCard p{
+  font-size: 14px;
+   font-weight: 400;
+  font-family: "Inter", sans-serif;
+  color: #9DB3A8;
+  line-height: 155%;
+  width: 200px;
+
+}
+
+
+/* Record part Start  */
+#recordPart{
+    padding-top: 100px;
+   padding-bottom: 210px;
+   background: #0E1F18;
+}
+.recordContent h6{
+    font-size: 13px;
+    font-weight: 600;
+    font-family: "Inter", sans-serif;
+    letter-spacing: 20%;
+    color: #F42A41;
+}
+.recordContent h3{
+      font-size:72px;
+    font-weight: 400;
+    font-family: "Bebas Neue", sans-serif;
+    line-height: 95%;
+    color:#F4EFE6;
+    padding-bottom: 56px; 
+} 
+.recordCard{
+    background: #07110D;
+    padding: 32px 0;
+    border-radius: 20px;
+    border: 2px solid #21402F;
+    position: relative;
+}
+.recordCard h4{
+    font-size: 56px;
+    font-weight: 400;
+    font-family: "Bebas Neue", sans-serif;
+    color: #F42A41; 
+    padding-left: 32px; 
+}
+
+.R-btn{
+    background: #21402F;
+    border-radius: 999px;
+    padding: 6px 12px;
+    font-size: 12px;
+    font-weight: 500;
+    font-family: "Inter", sans-serif; 
+    color: #9DB3A8;
+    position: absolute;
+    top: 50px;
+    right: 30px;
+}
+.underline{
+    height: 2px;
+    width:358px;
+    background: #21402F;
+    margin: 20px 32px;
+}
+.recordCard h5{
+    font-size: 15px;
+    font-weight: 400;
+    font-family: "Inter", sans-serif;  
+    color: #9DB3A8;
+    padding-left: 32px;
+}
+.recordCard h3{
+    font-size: 20px;
+    font-weight: 700;
+    font-family: "Inter", sans-serif; 
+    color: #F4EFE6;  
+    position: absolute; 
+    top: 134px;
+    right: 30px;
+}
+.recordCard h2{
+    font-size: 20px;
+    font-weight: 700;
+    font-family: "Inter", sans-serif; 
+    color: #F4EFE6;  
+    position: absolute; 
+    top: 193px;
+    right: 30px;
+}
+.recordCard h6{
+    font-size: 20px;
+    font-weight: 700;
+    font-family: "Inter", sans-serif; 
+    color: #F4EFE6;  
+    position: absolute; 
+    top: 252px;
+    right: 30px;
+}
+.recordCard h1{
+    font-size: 20px;
+    font-weight: 700;
+    font-family: "Inter", sans-serif; 
+    color: #F4EFE6;  
+    position: absolute; 
+    top: 311px;
+    right: 30px;
+}
+ .end p{
+    padding-top: 56px;
+    font-size: 13px;
+    font-weight: 400;
+    font-family: "Inter", sans-serif;
+    color: #9DB3A8;
+    padding-left: 30px;
+}
+
+
+/* Honours part Start  */
+#honoursPart{
+    background: #07110D;
+    padding-top: 110px;
+    padding-bottom: 110px;
+}
+.HonourContent h6{
+    font-size: 13px;
+    font-weight: 600;
+    font-family: "Inter", sans-serif;
+    letter-spacing: 20%;
+    color: #F42A41;
+}
+.HonourContent h3{
+    font-size:72px;
+    font-weight: 400;
+    font-family: "Bebas Neue", sans-serif;
+    line-height: 95%;
+    color:#F4EFE6;
+    padding-bottom: 56px; 
+}
+.honoursCard{
+    background: #0E1F18;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border: 2px solid #21402F;
+    border-radius: 20px;
+    opacity: 100%;
+    position: relative;
+}
+.honoursCard img{
+    padding-left: 28px;
+}
+.cardContent{
+    position: absolute;
+    top: 56px;
+    right: 28px;
+}
+.cardContent h4{
+    font-size: 18px;
+    font-weight: 600;
+    font-family: "Inter", sans-serif;
+    color: #F4EFE6;
+}
+.cardContent p{
+    font-size: 13px;
+    font-weight: 400;
+    color: #9DB3A8;
+    font-family: "Inter", sans-serif;
+    width: 290px;
+
+}
+.row{
+    margin-top: 25px;
+}
+/* Honours End */
+
+/* Gallery Part Start  */
+
+#galleryPart{
+    background :#0E1F18;
+   padding: 80px 50px;
+}
+#galleryPart h6{
+    font-size: 13px;
+    font-weight: 600;
+    font-family: "Inter", sans-serif;
+    letter-spacing: 20%;
+    color: #F42A41;
+}
+.galleryImage img{
+  margin:10px 0;
+}
+#galleryPart h3{
+    font-size:72px;
+    font-weight: 400;
+    font-family: "Bebas Neue", sans-serif;
+    line-height: 95%;
+    color:#F4EFE6;
+    padding-bottom: 56px; 
+}
+
+/* Gallery Part End  */
+
+/* Contact Part Start  */
+#contactPart{
+    background: #07110D;
+    padding: 100px 60px;
+}
+
+.contact{
+    background: #006A4E;
+    padding: 100px 0;
+    border-radius: 32px;
+    text-align: center;
+}
+.contact h6{
+    font-size: 13px;
+    font-weight: 600;
+    font-family: "Bebas Neue", sans-serif;
+    letter-spacing: 20%;
+    color: #F42A41; 
+    opacity: 100%;
+}
+
+.contact h3{
+    font-size:72px;
+    font-weight: 400;
+    font-family: "Bebas Neue", sans-serif;
+    color:#F4EFE6;
+    line-height: 95%;
+    opacity: 100%;
+
+   
+}
+.contact p{
+    width: 640px;
+    margin: 0 auto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 155%;
+    color: #F4EFE6;
+    font-family: "Inter", sans-serif;
+    text-align: center;
+    padding-bottom: 28px;
+    padding-top: 28px;
+    opacity: 100%;
+}
+.contactBtn{
+    background: #07110D;
+    padding: 8px 8px;
+    border-radius: 999px;
+    width: 557px;
+    margin: 0 auto;
+    position: relative;
+}
+.contactBtn h6{
+    font-size: 16px;
+    font-weight: 400;
+     font-family: "Inter", sans-serif; 
+     color: #9DB3A8;
+     padding: 14px 390px 14px 28px;
+
+}
+.sendBtn{
+    background: #F42A41;
+    padding: 14px 28px;
+    border-radius: 999px;
+    width: 159px;
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    bottom:8px ;
+}
+.sendBtn a{
+    color: #F4EFE6;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: "Inter", sans-serif;  
+
+}
+.footer-underline{
+    height: 3px;
+    width: 100%;
+    background: #21402F;
+}
+#footerPart{
+    background: #07110D;
+    padding-top:100px ;
+    padding-bottom: 100px;
+}
+.footerContent h3{
+    font-size: 22px;
+    font-weight: 400;
+    font-family: "Bebas Neue", sans-serif; 
+    color: #F4EFE6;
+    letter-spacing: 4%;
+}
+.footerContent p{
+    font-size: 13px;
+    font-weight: 400;
+    color: #9DB3A8;
+    font-family: "Inter", sans-serif;
+    text-align: center; 
+    
+}
+.footerContent ul{
+    display:flex ;
+    gap: 30px;
+    margin-left: 996px;
+    margin-bottom: 50px;
+}
+.footerContent ul li{
+    font-size: 13px;
+    font-weight: 600;
+    color: #9DB3A8;
+    
+}
+
+
+
+.logowithContact{
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    font-size: 22px;
+    font-weight: 400;
+    font-family: "Bebas Neue", sans-serif;  
+    color: #F4EFE6;
+    letter-spacing: 4%;
+}
+
+.para{
+    font-size: 13px;
+    font-weight: 400;
+    font-family: "Inter", sans-serif;
+    color: #9DB3A8; 
+}
+
+.contactInfo{
+    font-size: 14px;
+    font-weight: 500;
+    font-family: "Inter", sans-serif;
+    color: #9DB3A8;
+}
+.contactInfo h4{
+    display: inline-block;
+    margin: 0 20px;
+}
